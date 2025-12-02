@@ -27,13 +27,13 @@ feeds:
 
 ```bash
 # 从配置获取所有源
-python ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py ~/.claude/feeds.json
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py ~/.claude/feeds.json
 
 # 直接指定 URL
-python ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py --urls "url1,url2"
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py --urls "url1,url2"
 
 # 带关键词过滤
-python ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py config.json --filter "AI,Claude"
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py config.json --filter "AI,Claude"
 ```
 
 脚本返回 JSON，包含所有帖子的标题、描述、链接、来源等信息。

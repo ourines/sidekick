@@ -26,13 +26,13 @@ echo '{"feeds": [...]}' > /tmp/feeds_config.json
 ### 3. 获取内容
 
 ```bash
-python ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py /tmp/feeds_config.json
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py /tmp/feeds_config.json
 ```
 
 如果用户指定了 `--filter`：
 
 ```bash
-python ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py /tmp/feeds_config.json --filter "keyword1,keyword2"
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/fetch_feeds.py /tmp/feeds_config.json --filter "keyword1,keyword2"
 ```
 
 ### 4. 分类与评分

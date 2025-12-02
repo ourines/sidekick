@@ -50,7 +50,7 @@ EOF
 ### 4. 执行搜索
 
 ```bash
-python /Users/liubiao/.claude/plugins/marketplaces/sidekick/plugins/feed-digest/skills/feed-digest/scripts/deep_search.py \
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/feed-digest/scripts/deep_search.py \
   --config /tmp/search_config.json \
   --query "用户的问题"
 ```
