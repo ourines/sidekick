@@ -1,0 +1,20 @@
+{
+  "name": "sidekick",
+  "description": "Personal Claude Code plugin collection",
+  "author": {
+    "name": "ourines",
+    "url": "https://github.com/ourines"
+  },
+  "plugins": [
+    {
+      "name": "feed-digest",
+      "description": "RSS/Atom 信息源聚合摘要，智能分类评分",
+      "path": "plugins/feed-digest"
+    },
+    {
+      "name": "oss-promoter",
+      "description": "开源项目推广到技术周刊",
+      "path": "plugins/oss-promoter"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "oss-promoter",
+  "owner": {
+    "name": "ourines",
+    "email": "github@ourines"
+  },
+  "metadata": {
+    "description": "Claude Code plugin for batch promoting open source projects to tech weeklies and communities",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "oss-promoter",
+      "source": "./",
+      "description": "Batch promote open source projects to tech weeklies and communities. Auto-generate tailored submissions and create issues on multiple weeklies with one command.",
+      "version": "1.0.0",
+      "author": {
+        "name": "ourines"
+      },
+      "homepage": "https://github.com/ourines/oss-promoter",
+      "repository": "https://github.com/ourines/oss-promoter",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "oss",
+        "opensource",
+        "promotion",
+        "weekly",
+        "newsletter",
+        "github",
+        "automation"
+      ],
+      "category": "productivity",
+      "tags": ["oss", "promotion", "weekly", "newsletter", "automation"]
+    }
+  ]
+}

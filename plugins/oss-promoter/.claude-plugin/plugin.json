@@ -1,0 +1,22 @@
+{
+  "name": "oss-promoter",
+  "version": "1.0.0",
+  "description": "Batch promote open source projects to tech weeklies and communities. Auto-generate tailored submissions and create issues on multiple weeklies with one command.",
+  "author": {
+    "name": "ourines",
+    "email": "github@ourines"
+  },
+  "homepage": "https://github.com/ourines/oss-promoter",
+  "repository": "https://github.com/ourines/oss-promoter",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "oss",
+    "opensource",
+    "promotion",
+    "weekly",
+    "newsletter",
+    "github",
+    "automation"
+  ]
+}

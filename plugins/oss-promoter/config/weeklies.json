@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "weeklies": [
+    {
+      "id": "ruanyf-weekly",
+      "name": "科技爱好者周刊",
+      "repo": "ruanyf/weekly",
+      "stars": 79700,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【开源自荐】{name} - {short_description}",
+      "categories": ["tech", "tools", "opensource"],
+      "enabled": true
+    },
+    {
+      "id": "ascoders-weekly",
+      "name": "前端精读周刊",
+      "repo": "ascoders/weekly",
+      "stars": 30600,
+      "language": "zh",
+      "type": "comment",
+      "issue_number": 2,
+      "categories": ["frontend", "javascript"],
+      "enabled": true
+    },
+    {
+      "id": "hellogithub",
+      "name": "HelloGitHub 月刊",
+      "repo": "521xueweihan/HelloGitHub",
+      "stars": 95000,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【自荐】{name} - {short_description}",
+      "categories": ["opensource", "tools"],
+      "enabled": true
+    },
+    {
+      "id": "ljinkai-weekly",
+      "name": "独立开发变现周刊",
+      "repo": "ljinkai/weekly",
+      "stars": 3600,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【工具推荐】{name} - {short_description}",
+      "categories": ["indie", "tools", "saas"],
+      "enabled": true
+    },
+    {
+      "id": "eryajf-weekly",
+      "name": "二丫讲梵学习周刊",
+      "repo": "eryajf/learning-weekly",
+      "stars": 500,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【开源自荐】{name} - {short_description}",
+      "categories": ["tech", "devops", "tools"],
+      "enabled": true
+    },
+    {
+      "id": "openbiox-weekly",
+      "name": "生信爱好者周刊",
+      "repo": "openbiox/weekly",
+      "stars": 450,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【工具推荐】{name} - {short_description}",
+      "categories": ["bioinformatics", "tools"],
+      "enabled": false
+    },
+    {
+      "id": "jackpopc-devweekly",
+      "name": "DevWeekly 开发者周刊",
+      "repo": "Jackpopc/DevWeekly",
+      "stars": 1900,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【开源推荐】{name} - {short_description}",
+      "categories": ["tech", "tools", "opensource"],
+      "enabled": true
+    },
+    {
+      "id": "python-weekly",
+      "name": "Python 潮流周刊",
+      "repo": "chinesehuazhou/python-weekly",
+      "stars": 1800,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【工具推荐】{name}",
+      "categories": ["python", "tools"],
+      "enabled": false
+    },
+    {
+      "id": "opengithubs-weekly",
+      "name": "Github精选开源项目周刊",
+      "repo": "OpenGithubs/weekly",
+      "stars": 1400,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【项目推荐】{name} - {short_description}",
+      "categories": ["opensource", "tools"],
+      "enabled": true
+    },
+    {
+      "id": "howie-weekly",
+      "name": "老胡的信息技术周刊",
+      "repo": "howie6879/weekly",
+      "stars": 977,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【开源推荐】{name} - {short_description}",
+      "categories": ["tech", "tools"],
+      "enabled": true
+    },
+    {
+      "id": "tnt-weekly",
+      "name": "腾讯前端TNT周刊",
+      "repo": "tnfe/TNT-Weekly",
+      "stars": 5400,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【工具推荐】{name}",
+      "categories": ["frontend", "tools"],
+      "enabled": false
+    },
+    {
+      "id": "golang-weekly",
+      "name": "Go语言爱好者周刊",
+      "repo": "polaris1119/golangweekly",
+      "stars": 2300,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【开源推荐】{name}",
+      "categories": ["golang", "tools"],
+      "enabled": false
+    },
+    {
+      "id": "mdh-weekly",
+      "name": "MDH 前端周刊",
+      "repo": "sorrycc/weekly",
+      "stars": 1100,
+      "language": "zh",
+      "type": "issue",
+      "title_template": "【工具推荐】{name}",
+      "categories": ["frontend", "tools"],
+      "enabled": false
+    }
+  ]
+}
