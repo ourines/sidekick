@@ -1,9 +1,9 @@
 {
   "name": "feed-digest",
-  "version": "1.0.0",
-  "description": "RSS/Atom 信息源聚合摘要，支持智能分类、评分筛选、关键词过滤",
+  "version": "1.1.0",
+  "description": "RSS/Atom/GitHub Issues 信息源聚合摘要，支持智能分类、评分筛选、关键词过滤",
   "author": {
     "name": "liubiao"
   },
-  "keywords": ["rss", "feed", "digest", "aggregator", "summary"]
+  "keywords": ["rss", "feed", "digest", "aggregator", "summary", "github", "issues"]
 }
