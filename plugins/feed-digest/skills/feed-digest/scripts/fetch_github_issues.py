@@ -19,6 +19,7 @@ import argparse
 import subprocess
 from datetime import datetime, timezone, timedelta
 from html import unescape
+from urllib.parse import quote
 import re
 
 
@@ -63,9 +64,10 @@ def github_api(endpoint, token=None):
 
 def search_issues(repo, query, token=None):
     """Search issues in a repo."""
-    # GitHub search API
+    # GitHub search API - properly encode the query
     search_query = f"{query} repo:{repo} is:issue"
-    endpoint = f"/search/issues?q={search_query.replace(' ', '+')}&sort=created&order=desc&per_page=50"
+    encoded_query = quote(search_query, safe='')
+    endpoint = f"/search/issues?q={encoded_query}&sort=created&order=desc&per_page=50"
 
     try:
         data = github_api(endpoint, token)
